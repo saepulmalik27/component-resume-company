@@ -861,4 +861,8 @@ html, body{
   .md\:p-10 {
     padding: 2.5rem;
   }
+
+  .md\:p-14 {
+    padding: 3.5rem;
+  }
 }
