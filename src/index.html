@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <title>Resume Summary Component</title>
+  </head>
+  <body class="font-hankenGrotesk flex justify-center items-center bg-very-light-blue">
+    <div class="h-full w-full md:max-w-[736px] md:max-h-[512px] md:m-auto overflow-hidden grid grid-cols-1 md:grid-cols-2 md:rounded-t-[32px] md:rounded-b-[32px] shadow-sm bg-white">
+      <header
+        class="p-6 min-h-[356px] rounded-b-[32px] bg-hero-pattern text-white flex justify-center items-center text-center"
+      >
+        <div class="flex flex-col justify-center items-center gap-6">
+          <h3 class="text-main font-bold md:heading-4 text-primary">
+            Your Result
+          </h3>
+          <div
+            class="w-[140px] h-[140px] bg-hero-pattern-2 aspect-square rounded-full flex flex-col justify-center items-center"
+          >
+            <h1 class="heading-2 md:heading-1">76</h1>
+            <p class="md:text-main text-base font-bold text-primary">of 100</p>
+          </div>
+          <div class="flex flex-col gap-2 md:gap-[14px]">
+            <h2 class="heading-4 md:heading-3">Great</h2>
+            <p class="text-base font-[500] md:text-main text-primary">
+              Your performance exceed 65% of the people conducting the test
+              here!
+            </p>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="py-6 px-[30px] flex flex-col gap-6">
+          <h3 class="md:heading-4 text-main font-bold text-dark-navy">
+            Summary
+          </h3>
+          <div class="flex flex-col gap-4">
+            <div
+              class="p-4 rounded-[12px] flex justify-between items-center text-base md:text-main bg-opacity-5 bg-cus-red"
+            >
+              <div
+                class="text-cus-red flex gap-[12px] items-center bg-summary-reaction"
+              >
+                <object
+                  data="./icons/icon-reaction.svg"
+                  width="20"
+                  height="20"
+                ></object>
+                <p class="text-current">Reaction</p>
+              </div>
+              <div class="font-bold">
+                80 <span class="text-dark-navy">/ 100</span>
+              </div>
+            </div>
+            <div
+              class="p-4 rounded-[12px] flex justify-between items-center text-base md:text-main bg-opacity-5 bg-cus-yellow"
+            >
+              <div
+                class="text-cus-yellow flex gap-[12px] items-center bg-summary-reaction"
+              >
+                <object
+                  data="./icons/icon-memory.svg"
+                  width="20"
+                  height="20"
+                ></object>
+                <p class="text-current">Memory</p>
+              </div>
+              <div class="font-bold">
+                92 <span class="text-dark-navy">/ 100</span>
+              </div>
+            </div>
+            <div
+              class="p-4 rounded-[12px] flex justify-between items-center text-base md:text-main bg-opacity-5 bg-cus-green"
+            >
+              <div
+                class="text-cus-green flex gap-[12px] items-center bg-summary-reaction"
+              >
+                <object
+                  data="./icons/icon-verbal.svg"
+                  width="20"
+                  height="20"
+                ></object>
+                <p class="text-current">Verbal</p>
+              </div>
+              <div class="font-bold">
+                61 <span class="text-dark-navy">/ 100</span>
+              </div>
+            </div>
+            <div
+              class="p-4 rounded-[12px] flex justify-between items-center text-base md:text-main bg-opacity-5 bg-cus-blue"
+            >
+              <div
+                class="text-cus-blue flex gap-[12px] items-center bg-summary-reaction"
+              >
+                <object
+                  data="./icons/icon-visual.svg"
+                  width="20"
+                  height="20"
+                ></object>
+                <p class="text-current">Visual</p>
+              </div>
+              <div class="font-bold">
+                73 <span class="text-dark-navy">/ 100</span>
+              </div>
+            </div>
+          </div>
+          <button
+            class="w-full flex justify-center items-center bg-dark-navy rounded-full py-4"
+          >
+            <p class="text-main font-bold text-white">Continue</p>
+          </button>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
